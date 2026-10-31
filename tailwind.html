@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-[#EAD8C0] text-[#3D2314] font-sans">
+
+
+    <div class="bg-[#EAD8C0] px-6 py-4 flex md:px-16 flex-col md:flex-row  justify-between items-center shadow-sm">
+        <div class="text-2xl font-bold mb-4 md:mb-0">Coffee</div>
+        <div class="flex justify-center gap-6 flex-wrap text-sm font-medium">
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">Our Story</a>
+            <a href="">Locatios</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+    <div class="md:px-16 flex items-center relative bg-[#2B1B17] min-[500px]: px-6 py-12 overflow-hidden">
+        <div
+            class=" absolute inset-0 z-0 opacity-40 bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80')]">
+        </div>
+        <div class="relative z-10 max-w-xl">
+            <div class="text-5xl font-extrabold mb-4 text-white">
+                Saver the Perfect <br> Brew!
+            </div>
+            <p class="text-sm md:text-base text-gray-200 mb-6">
+                Experience the finest hand-crafted coffee, made from ethically <br> sourced beans roasted to perfection
+                every single morning.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <button class="bg-white tex-[#3D2314] font-semibold px-6 py-2.5 rounded-full">Order Now</button>
+                <button class="bg-[#8B5A2B] text-white font-semibold px-6 py-2.5 rounded-full">View Now</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#f3eae1] md:px-16 px-6 py-12">
+        <div class="text-3xl font-bold text-center mb-10">
+            Features
+        </div>
+        <div class="flex flex-col md:flex-row  justify-between gap-6 divide-x-4 md:divide-x-0 md:gap-0   divide-[#cfc6b7]">
+            <div class="flex-1 text-center px-4 py-4">
+                <div
+                    class="w-16 h-16 bg-[#5C3A21] rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-2xl shadow">
+                    ☕
+                </div>
+                <h3 class="font-bold text-lg mb-1 text-[#3D2314]">Espresso</h3>
+                <p class="text-xs text-gray-600 max-w-xs mx-auto">
+                    Rich, bold, and concentrated shot brewed under high pressure.
+                </p>
+            </div>
+            <div class="flex-1 text-center px-4 py-4">
+                <div
+                    class="w-16 h-16 bg-[#5C3A21] rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-2xl shadow">
+                    ☕
+                </div>
+                <h3 class="font-bold text-lg mb-1 text-[#3D2314]">Latte</h3>
+                <p class="text-xs text-gray-600 max-w-xs mx-auto">
+                    Smooth espresso blended with velvety steamed milk and light foam.
+                </p>
+            </div>
+            <div class="flex-1 text-center px-4 py-4">
+                <div
+                    class="w-16 h-16 bg-[#5C3A21] rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-2xl shadow">
+                    ☕
+                </div>
+                <h3 class="font-bold text-lg mb-1 text-[#3D2314]">Latte</h3>
+                <p class="text-xs text-gray-600 max-w-xs mx-auto">
+                    Smooth espresso blended with velvety steamed milk and light foam.
+                </p>
+            </div>
+            <div class="flex-1 text-center px-4 py-4">
+                <div
+                    class="w-16 h-16 bg-[#5C3A21] rounded-full mx-auto mb-3 flex items-center justify-center text-white font-bold text-2xl shadow">
+                    ☕
+                </div>
+                <h3 class="font-bold text-lg mb-1 text-[#3D2314]">Cold</h3>
+                <p class="text-xs text-gray-600 max-w-xs mx-auto">
+                    Steeped for 12+ hours for an ultra-smooth, low-acid refresh.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row w-full">
+        <div class="flex flex-col md:flex-row lg:w-1/2 bg-[#45291b] text-white">
+            <div class="flex-1  p-8 md:p-12 flex  flex-col justify-center items-start">
+                <h2 class="font-bold text-3xl mb-3 leading-tight">Why Choose<br />Us?</h2>
+                <p class="text-xs text-gray-300 mb-6">
+                    We source directly from sustainable farms to deliver premium quality beans, handcrafted by master
+                    baristas.
+                </p>
+                <button class="bg-white text-[#3D2314] px-5 py-2 text-xs font-bold rounded-full">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="w-full md:w-1/2 min-h-[250px] relative overflow-hidden flex-none">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
+                    alt="Coffee Cup" class="w-full h-full object-cover block" />
+            </div>
+        </div>
+        <div class="lg:w-1/2 bg-[#EAD8C0] md:p-12 p-8 flex flex-col justify-center items-center text-center">
+            <span class="font-bold text-xl text-[#443424] mb-2">Special Offer</span>
+            <h2 class="font-extrabold text-3xl text-slate-800">200 Off from 8 - 10 am</h2>
+            <p class="text-xs text-gray-800 max-w-md mt-3">
+                Start your morning on a high note! Enjoy handcrafted, premium coffee brewed <br>
+                from freshly roasted beans with an exclusive discount every single day between <br> 8:00 AM and 10:00
+                AM.
+            </p>
+            <button class="bg-[#45291b] px-6 py-2.5 text-white text-xs font-bold rounded-full mt-8">
+                Claim offer
+            </button>
+        </div>
+    </div>
+
+    <div class="py-12 px-6 md:p-16 bg-[#F8F1E7]">
+        <div class=" flex gap-8">
+            <div class="lg:w-1/3 flex flex-col justify-center">
+                <span class="text-lg font-semibold text-[#8B5A2B]">Morning Special</span>
+                <h2 class="font-bold text-3xl">Morning Happy -</h2>
+
+                <p class="text-xs text-gray-600 mt-3">
+                    Pair your favorite brew with our fresh bakery items <br> made daily in-house Get your fresh morning
+                    coffee with <br> an exclusive discount every single day.
+                </p>
+                <div class="flex gap-3 mt-7">
+                    <button
+                        class="border border-[#3D2314] text-[#3D2314] text-xs font-semibold px-4 py-2 rounded-full hover:bg-[#3D2314]">
+                        Explore</button>
+                    <button class="bg-[#3D2314] text-white text-xs font-semibold px-5 py-2.5 rounded-full ">
+                        Get Started</button>
+                </div>
+            </div>
+            <div class="lg:w-2/3">
+                <div class="font-bold text-3xl text-center">
+                    Visit Us TODAY
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <div class=" p-2 rounded-lg shadow-sm text-center">
+                        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=300&q=80"
+                            class="w-full h-24 object-cover rounded-lg mb-2">
+                        <p class="text-xs font-bold">Macchiato</p>
+                        <span class="text-[10px] text-gray-500">$4.50</span>
+                    </div>
+
+                    <div class=" p-2 rounded-lg shadow-sm text-center">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=300&q=80"
+                            class="w-full h-24 object-cover rounded-lg mb-2">
+                        <p class="text-xs font-bold">Cramel Latte</p>
+                        <span class="text-[10px] text-gray-500">$5.00</span>
+                    </div>
+                    <div class=" p-2 rounded-lg shadow-sm text-center">
+                        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=300&q=80"
+                            class="w-full h-24 object-cover rounded-lg mb-2">
+                        <p class="text-xs font-bold">Americano</p>
+                        <span class="text-[10px] text-gray-500">$3.75</span>
+                    </div>
+                    <div class=" p-2 rounded-lg shadow-sm text-center">
+                        <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=300&q=80"
+                            class="w-full h-24 object-cover rounded-lg mb-2">
+                        <p class="text-xs font-bold">Mocha</p>
+                        <span class="text-[10px] text-gray-500">$4.80</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative bg-black px-6 md:px-16 py-28  text-white overflow-hidden">
+        <div
+            class="absolute inset-0 z-0 opacity-50 bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80')]">
+            <div class="relative z-10 max-w-md ml-14 ">
+                <h2 class="text-xl font-bold mt-8">Win Your Hour!</h2>
+                <p class="text-xs text-gray-300 mb-6">Join our daily coffee quiz and win <br> a free cup of coffee every
+                    morning!</p>
+                <button
+                    class="bg-[#8B5A2B] hover:bg-[#6F4721] text-white text-xs font-bold px-5 py-2.5 rounded-full transition">
+                    Enter Contest
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-6 py-8 bg-[#f3eae1] md:px-16 gap-6  justify-between md:gap-0">
+        <div class="flex flex-col md:flex-row sm:divide-x-0  md:divide-x-2 divide-[#cfc6b7]">
+            <div class="flex-1 flex items-center gap-4 px-4 py-2">
+                <div class="h-12 w-12 bg-gray-300 rounded-full flex-shrink-0 overflow-hidden">
+                    <img src="https://i.pravatar.cc/100?img=33" class="w-full h-full">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xs">Olivia M. Rusk</h4>
+                    <p class="text-[11px] text-gray-600">Best coffee place in town, warm vibe and wonderful staff! <br>
+                        Best coffee place in town, warm vibe and wonderful staff!
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-1 flex items-center gap-4 px-4 py-2">
+                <div class="h-12 w-12 bg-gray-300 rounded-full flex-shrink-0 overflow-hidden">
+                    <img src="https://i.pravatar.cc/100?img=12" class="w-full h-full">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xs">McGregor Clayto</h4>
+                    <p class="text-[11px] text-gray-600">
+                        The Cold Brew is absolute perfection.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-1 flex items-center gap-4 px-4 py-2">
+                <div class="h-12 w-12 bg-gray-300 rounded-full flex-shrink-0 overflow-hidden">
+                    <img src="https://i.pravatar.cc/100?img=60" class="w-full h-full">
+                </div>
+                <div>
+                    <h4 class="font-bold text-xs">Sophia G. Garcia</h4>
+                    <p class="text-[11px] text-gray-600">
+                        My go-to spot for morning meetings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#472c1b] text-white md:px-16   px-6 py-4 flex justify-between items-center flex-col md:flex-row gap-6 md:gap-4">
+        <div class=" flex flex-col">
+            <div class="font-bold text-sm">
+                2026 Coffee Shop
+            </div>
+
+            <p class="font-semibold text-[8px] text-gray-300">All Rights Reserved</p>
+        </div>
+        <div class="flex  gap-3">
+            <a href="#"
+                class="w-9 h-9 rounded-full bg-[#C87D55] text-white flex items-center justify-center hover:opacity-90 transition-opacity">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                    <path
+                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+            </a>
+            <a href="#"
+                class="w-9 h-9 rounded-full bg-[#EAD8C0] text-[#45291b] flex items-center justify-center hover:bg-white transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+            <a href="#"
+                class="w-9 h-9 rounded-full bg-[#EAD8C0] text-[#45291b] flex items-center justify-center hover:bg-white transition-colors">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                    <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.762-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+            </a>
+            <a href="#"
+                class="w-9 h-9 rounded-full bg-[#EAD8C0] text-[#45291b] flex items-center justify-center hover:bg-white transition-colors">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+            </a>
+        </div>
+        <div class="flex gap-3">
+            <button class="px-4 py-1.5 bg-white text-black rounded-full">
+                Privacy Policy
+            </button>
+            <button class="px-4 py-1.5 bg-[#b76a25] text-white rounded-full">
+                Subscribe
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
